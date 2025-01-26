@@ -2,14 +2,14 @@
 ## Документы
 * [План автоматизации](https://github.com/Ollessia/MyDiplom/blob/main/Plan.md)
 * [Отчет по итогам автоматизации](https://github.com/Ollessia/MyDiplom/blob/main/Summary.md)
-* [Отчет по итогам тестирования](https://github.com/KseniyaLazareva/diplom/blob/main/Report.md)
+* [Отчет по итогам тестирования](https://github.com/Ollessia/MyDiplom/blob/main/Report.md)
 
 Для запуска должны быть установлены:
 * IntelliJ IDEA
 * Docker Desktop
 
 Процедура запуска автотестов:
-1. Используя команду `git clone` скопировать [Дипломный проект](https://github.com/KseniyaLazareva/diplom)
+1. Используя команду `git clone` скопировать [Дипломный проект](https://github.com/Ollessia/MyDiplom)
 2. Запустить Docker Desktop
 3. Открыть проект в IntelliJ IDEA
 4. Используя команду `docker-compose up -d` запустить контейнеры с  MySQL , PostgreSQL и Node.js
