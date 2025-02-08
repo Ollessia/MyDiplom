@@ -33,7 +33,6 @@ public class DBTest {
     }
 
 
-
     MainPage mainPage = new MainPage();
 
     @Test

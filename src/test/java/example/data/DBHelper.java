@@ -15,12 +15,8 @@ public class DBHelper {
     public static String expectedPaymentStatusDeclined = "DECLINED";
 
     private static Connection connection() throws SQLException {
-        return DriverManager.getConnection("jdbc:mysql://localhost:3306/app", "app", "pass");
+        return DriverManager.getConnection(System.getProperty("db.url"), "app", "pass");
     }
-
-    /*private static Connection connection() throws SQLException {
-        return DriverManager.getConnection("jdbc:postgresql://localhost:5432/app", "app", "pass");
-    }*/
 
 
     public static String getDebitCardStatus() throws SQLException {
